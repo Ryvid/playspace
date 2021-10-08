@@ -1,4 +1,4 @@
-import {Vehicle, Truck, Car} from "./vehicles.js";
+import {Vehicle, Truck, Car} from "./vehicle.js";
 
 class VehicleFactory {
     static createVehicle(type = "car") {
@@ -11,3 +11,5 @@ class VehicleFactory {
         }
     } 
 }
+
+export {VehicleFactory}
