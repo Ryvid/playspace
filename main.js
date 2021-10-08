@@ -1,4 +1,4 @@
-import VehicleFactory from "./factory.js";
+import {VehicleFactory} from "./factory.js";
 
 const myCar = VehicleFactory.createVehicle("car");
 
